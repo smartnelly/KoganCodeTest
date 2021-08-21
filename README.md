@@ -1,22 +1,28 @@
-# [Kogan Code Test](https://theparks.herokuapp.com/)
+# Kogan Code Test
 
-This project was a code test from Kogan and I was asked to use an API to dispplay data.
+- This project was a code test from Kogan and I was asked to use an API to dispplay data.
 
-Language used: Javascript
+- Language used: Javascript
 
-Check out the application [here](https://theparks.herokuapp.com/).
+- Instructions : Open the 'index.html' file and open in Browser.
 
-## Challenge Description
+## Challenge
+
+Tried to deploy the web page to [Github page](https://smartnelly.github.io/KoganCodeTest/) & [Surge](https://kogancodetest.surge.sh/), but when clicked the button no result was appeared.
+
+Reason: The page at [Github page](https://smartnelly.github.io/KoganCodeTest/) & [Surge](https://kogancodetest.surge.sh/) were loaded over HTTPS, but requested an insecure XMLHttpRequest(over HTTP) endpoint request has been blocked; the content must be served over HTTPS.
+
+## Code Test Description
 
 Using the provided (paginated) API, find the average cubic weight for all products in the "Air Conditioners" category.
 
 Cubic weight is calculated by multiplying the length, height and width of the parcel. The result is then multiplied by the industry standard cubic weight conversion factor of 250.
 
-### API Endpoint
+### - API Endpoint
 
 http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1
 
-### Cubic Weight Example
+### - Cubic Weight Example
 
 A parcel measuring 40cm long (0.4m) x 20cm high (0.2m) x 30cm wide (0.3m) is equal to 0.024 cubic metres.
 Multiplied by the conversion factor of 250 gives a cubic weight of 6kg.
