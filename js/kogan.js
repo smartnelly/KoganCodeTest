@@ -32,5 +32,5 @@ function getObjects() {
     document.getElementById("kgWeight").innerHTML = output;
     document.getElementById("gWeight").innerHTML = output * 1000;
   };
-  xhr.send(null);
+  xhr.send();
 }
